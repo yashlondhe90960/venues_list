@@ -1,17 +1,18 @@
 const venues = [
-    {
-      id: '0',
+    { 
       name: "Yoddha Sports Club",
-      address: 'Punawale',
-      newImage:
-        'https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=800',
-      image:
-        'https://playo.gumlet.io/DDSASTJOSEPHSBOYSHIGHSCHOOLEUROPEANS20220919091705834667/DDSAStJosephsBoysHighSchoolEuropeans1666166846682.jpg?mode=crop&crop=smart&h=200&width=450&q=40&format=webp',
-      location:
-        'Behind Adhira international school, Divine bliss rd Sr. No. 38/4, Jambe Rd, Tajane wasti Punawale',
-      rating: 3.6,
+      rating: 4,
+      
+      deferLink: 'https://playo.page.link/ry8TT',
+      fullLink:
+      'https://playo.co/venue/?venueId=4ec5b58f-d58f-4ce1-8c84-2caa63007ecc'
+      
+      avgRating: 3.6,
+      ratingCount: 3
       lat:18.635119880729967,
       lng:73.7346085902281,
+      icon: 'https://maps.google.com/mapfiles/kml/paddle/4-lv.png',
+      filter_by: ['Pool', 'Snooker'],
       timings: '5.30 AM - 9:00 PM',
       sportsAvailable: [
         {
@@ -67,6 +68,12 @@ const venues = [
           ],
         },
       ],
+    image:"https://playo.gumlet.io/FIGURINEFITNESSINDIRANAGAR/SnookerRoom1652349575145.jpeg?mode=crop&crop=smart&h=200&width=450&q=75",
+    location:
+        'Behind Adhira international school, Divine bliss rd Sr. No. 38/4, Jambe Rd, Tajane wasti Punawale',
+    address: 'Punawale',
+    bookings: [],
+          
     },
     {
       id: '1',
